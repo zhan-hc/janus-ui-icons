@@ -1,0 +1,38 @@
+{
+  "name": "@janus-c/icons-vue",
+  "version": "1.0.0",
+  "description": "Vue components of Janus ui Icons collection.",
+  "type": "module",
+  "keywords": [
+    "icon",
+    "svg",
+    "vue",
+    "janus-ui",
+    "janus-c"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm run build:generate && vite build",
+    "build:generate": "tsx build/generate.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "zhan-hc",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.1.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "camelcase": "^8.0.0",
+    "fs-extra": "^11.2.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vue": "^3.4.35",
+    "vue-tsc": "^2.0.29"
+  }
+}
