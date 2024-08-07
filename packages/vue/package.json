@@ -1,6 +1,6 @@
 {
   "name": "@janus-c/icons-vue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Vue components of Janus ui Icons collection.",
   "type": "module",
   "keywords": [

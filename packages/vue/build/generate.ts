@@ -48,11 +48,9 @@ function readDirectoryRecursively(dirPath) {
     const fullPath = path.join(dirPath, file);
     const stat = fs.statSync(fullPath);
     if (stat.isDirectory()) {
-      // console.log(`目录: ${fullPath}`);
-      readDirectoryRecursively(fullPath); // 递归遍历子目录
+      readDirectoryRecursively(fullPath);
     } else {
       filesPath.push(fullPath)
-      // console.log(`文件: ${fullPath}`);
     }
   });
   return filesPath
