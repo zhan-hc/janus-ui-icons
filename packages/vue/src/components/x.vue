@@ -1,0 +1,16 @@
+<template>
+  <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M761.759375 122h132.320625L605 452.4003125 945.08 902H678.8L470.24 629.3196875 231.599375 902H99.2l309.1996875-353.4L82.16 122h273.0403125l188.52 249.24z m-46.4390625 700.8h73.32L315.359375 197.0403125h-78.680625z"
+      p-id="2591"
+      >
+    </path>
+  </svg>
+  
+</template>
+<script lang="ts" setup>
+defineOptions({
+  name: 'X',
+})
+</script>
